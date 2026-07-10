@@ -1,0 +1,28 @@
+# ═══════════════════════════════════════════════════════════
+#   AI-Powered Traffic Accident Detection & Severity Analysis
+#   requirements.txt
+# ═══════════════════════════════════════════════════════════
+
+# ── Core ML / Detection ──────────────────────────────────────
+ultralytics>=8.0.0          # YOLOv8
+torch>=2.0.0                # PyTorch backend (auto-installed by ultralytics)
+torchvision>=0.15.0
+
+# ── Computer Vision ──────────────────────────────────────────
+opencv-python>=4.8.0
+
+# ── Data ─────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0               # gaussian_kde, gaussian_filter (heatmap_analysis.py)
+
+# ── Visualisation ────────────────────────────────────────────
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# ── Dashboard ────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── No extra deps needed for fuzzy / XAI modules ─────────────
+#    fuzzy_severity.py  → numpy only
+#    xai_explainer.py   → opencv, matplotlib, numpy
