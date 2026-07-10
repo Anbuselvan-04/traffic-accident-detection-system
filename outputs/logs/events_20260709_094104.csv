@@ -1,2 +1,0 @@
-timestamp,frame_number,class_label,confidence,severity,risk_score,bbox_x1,bbox_y1,bbox_x2,bbox_y2,center_x,center_y,vehicle_count
-2026-07-09 09:41:55,92,Accident,0.743,Medium,60.0,908,134,1306,482,1107,308,26
