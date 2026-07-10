@@ -169,17 +169,6 @@ http://localhost:8501
 
 ---
 
-## 📌 Future Scope
-
-- Live CCTV Integration
-- Multi-camera Monitoring
-- Vehicle Tracking During Collision
-- Ambulance Dispatch Integration
-- Cloud Deployment
-- Mobile Dashboard
-- Emergency SMS Notifications
-
----
 
 ## 👨‍💻 Developed By
 
